@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo – Adviuz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-nav">
+            <a href="home.html" class="logo">
+                <span class="logo-text">ADVIUZ</span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html#about">About us</a></li>
+                    <li><a href="home.html#how">How It Works</a></li>
+                    <li><a href="demo.html" class="active-nav">Demo</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="right-side">
+                <a href="javascript:void(0)" class="login-btn">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== DEMO HERO ===== -->
+    <section class="demo-hero">
+        <h1 class="demo-main-title">NEW PAMPHLETS</h1>
+        <h2 class="demo-subtitle">DISTRIBUTION SYSTEM</h2>
+        <ul class="key-features-list">
+            <li>• No Printing & Distribution Cost</li>
+            <li>• 100% Distribution Guarantee</li>
+            <li>• Detailed Reports</li>
+            <li>• Pay only for Viewed Pamphlets</li>
+        </ul>
+    </section>
+
+    <!-- ===== VIDEO DEMO ===== -->
+    <section class="video-demo">
+        <div class="video-container">
+            <h2 class="section-title">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="title-checkmark">
+                    <circle cx="16" cy="16" r="16" fill="#3b82f6" />
+                    <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                WATCH DEMO
+            </h2>
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eqSmQCYt9bA?si=eh0kWcj5Gzjy2q7Q"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PARTNERS/ICONS SECTION ===== -->
+    <section class="partners-section">
+        <h2 class="section-title">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="title-checkmark">
+                <circle cx="16" cy="16" r="16" fill="#3b82f6" />
+                <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            OUR PARTNERS
+        </h2>
+        <div class="partners-grid">
+            <div class="partner-item">
+                <div class="partner-icon">📱</div>
+                <h4>Mobile Solutions</h4>
+                <p>Advanced mobile advertising platforms</p>
+            </div>
+            <div class="partner-item">
+                <div class="partner-icon">💼</div>
+                <h4>Business Integration</h4>
+                <p>Seamless business solution integration</p>
+            </div>
+            <div class="partner-item">
+                <div class="partner-icon">🌐</div>
+                <h4>Global Reach</h4>
+                <p>Worldwide distribution network</p>
+            </div>
+            <div class="partner-item">
+                <div class="partner-icon">📊</div>
+                <h4>Analytics</h4>
+                <p>Real-time performance tracking</p>
+            </div>
+            <div class="partner-item">
+                <div class="partner-icon">🎯</div>
+                <h4>Target Marketing</h4>
+                <p>Precision audience targeting</p>
+            </div>
+            <div class="partner-item">
+                <div class="partner-icon">🔒</div>
+                <h4>Secure Platform</h4>
+                <p>Enterprise-grade security</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== CALL TO ACTION ===== -->
+    <section class="demo-cta">
+        <div class="cta-container">
+            <h2>Ready to Get Started?</h2>
+            <p>Contact us now to see how paperless pamphlet distribution can transform your business</p>
+            <div class="cta-buttons">
+                <a href="tel:8448444560" class="cta-btn primary">Call Now</a>
+                <a href="https://wa.me/918448444560?text=I%20am%20interested" target="_blank"
+                    class="cta-btn secondary">Start Chat</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 Adviuz – Instad Web Services Pvt Ltd</p>
+        <p>Paperless. Trackable. Guaranteed Distribution.</p>
+    </footer>
+
+    <!-- Login Modal Overlay -->
+    <div class="modal-overlay" id="authModalOverlay">
+        <div class="auth-modal">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+
+            <!-- Left: Sign In -->
+            <div class="auth-left">
+                <h2>Sign In</h2>
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="Facebook">f</a>
+                    <a href="#" class="social-icon" title="Google">G</a>
+                    <a href="#" class="social-icon" title="LinkedIn">in</a>
+                </div>
+                <p class="auth-divider">or use your account</p>
+
+                <form class="auth-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <a href="#" class="forgot-pwd">Forgot your password?</a>
+                    <button type="submit" class="btn-signin">Sign In</button>
+                </form>
+            </div>
+
+            <!-- Right: Welcome -->
+            <div class="auth-right">
+                <h2>Hey There!</h2>
+                <p>Begin your amazing journey by creating an account with us today</p>
+                <button class="btn-signup">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="modal.js"></script>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navMenu = document.getElementById("main-menu");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = navMenu.classList.toggle("open");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+        });
+    </script>
+</body>
+
+</html>
